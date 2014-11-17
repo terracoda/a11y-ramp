@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1024, user-scalable=no">
+
+    <title>Ramp it up: Action based guide to creating accessible websites</title>
+
+		<meta name="description" content="Web content accessibility for online courses.">
+    <meta name="author" content="Talieisn L. Smith">
+    <meta name="viewport" content="width=1024, user-scalable=no">
+
+    <!-- Required stylesheet -->
+    <link rel="stylesheet" type="text/css" href="core/deck.core.css" media="screen">
+
+    <!-- Extension CSS files go here. Remove or add as needed. -->
+    <link rel="stylesheet" type="text/css" href="extensions/goto/deck.goto.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="extensions/menu/deck.menu.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="extensions/navigation/deck.navigation.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="extensions/status/deck.status.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="extensions/scale/deck.scale.css" media="screen">
+    
+    <!-- Style theme. More available in /themes/style/ or create your own. -->
+    <link rel="stylesheet" type="text/css" href="themes/style/swiss.css" media="screen">
+	  <link rel="stylesheet" type="text/css" href="custom/custom.css" media="screen">
+    
+    <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+    <link rel="stylesheet" type="text/css" href="themes/transition/fade.css" media="screen">
+
+    
+    <!-- Basic black and white print styles -->
+    <link rel="stylesheet" type="text/css" href="core/print.css" media="print">
+    
+    <!-- Required Modernizr file -->
+    <script src="modernizr.custom.js" type="text/javascript"></script>
+</head>
+<body>
+  <div class="deck-container">
+    <!-- Begin slides. Just make elements with a class of slide. -->
+		<section class="slide"> 
+		  <h2>Action based guide for creating accessible websites</h2>
+		  	<div class="vcenter">
+					<h1>Ramp it up!</h1> 
+					<p class="slide-note"><small><abbr>OCAD University</abbr> November 20,  2014</small></p>  
+				</div>
+		</section>
+		<section class="slide">
+		  <h2>Accessibility</h2> 
+			<p class="speaker-note">What do we mean by <em>accessibility</em>?</p>
+
+		    <div class="panel-left">
+			<blockquote>
+		      <p>involves making allowances for characteristics a person cannot readily change.</p>
+		      <p><i>(Clark 2003)</i></p>
+		    </blockquote>
+		</div>
+
+		<figure class="panel-right">
+		      <img src="img/istock-wheelchair-stairs-1.jpg" alt="Person in wheelchair at the bottom of large set of stairs.">		  
+		    </figure>    	
+		</section>
+		
+
+		<section class="slide">
+		  <h2>Accessibility progression</h2>
+			<p class="speaker-note">In the West, through activism and successful legislation barriers in the physical world have slowly disappeared. In the case of this Apple Store in New York, the elevator, an accessibility feature is the centre of the store's design.</p>   
+			  <figure class="panel">
+			    <img src="img/istock-sign-ramp-backdoor.jpg"alt="Sign for accessible ramp at the backdoor.">
+					<figcaption>Directions around the barrier.</figcaption>
+			    </figure>  
+				<figure class="panel span-two">
+				    <img src="img/istock-stairs-ramp.jpg"alt="Stairs and an accessible ramp at a building's main entrance.">
+				<figcaption>Universal ramp (front door).</figcaption>
+			  </figure>
+				<figure class="panel span-two">
+				    <img src="img/curb-cut-aparna-small.jpg"alt="Curb cut near the TIFR guest house in Aparna Sarovar housing complex, Hyderabad.">
+				<figcaption>Universal curb cut.</figcaption>
+			  </figure>
+			<figure>
+				<img src="http://4.bp.blogspot.com/-KqT5PspXNlw/Tztd5IUoY0I/AAAAAAAAgFU/g-Ou7UblYSQ/s1600/A+look+up+the+from+elevator+and+glass+spiral+staircase+at+the+new+Apple+retail+store+on+Fifth+Avenue+in+New+York.jpg" alt="Glass elevator and spiral stair case in the 5th Avenue Apple Store in New York."/>
+
+			<figcaption>Elevator is the centre of the design.</figcaption>
+			</figure>
+		</section>
+
+		<section class="slide">
+		<h2>The web is a diverse place</h2>
+		 <p class="slide-note">Users employ a diverse range of hardware and software, <strong>assistive technologies</strong>, to navigate the digital world.</p>
+		<p class="speaker-note">The hardware and software can be highly customized or the same technology everyone uses, but perhaps used in a different way. People with disabilities are extremely innovative at overcoming barriers and have in fact pushed technological change that benefits everyone.</p>
+		    <figure class="panel span-two">
+					<img style="height: 350px;" src="img/at-refreshable-braille.jpg" alt="">
+					<figcaption>Refreshable braille device.</figcaption>	
+			  </figure>
+
+		   <figure class="panel span-two">
+			   <img style="height: 350px;" src="img/at-kursweil-close-up.jpg" alt="Highlighted text showing where the cursor is.">
+			   <figcaption>Kurzweil 3000 - literacy support software.</figcaption>
+		   </figure>
+
+			<figure class="panel span-two">
+				<img style="height: 350px;" src="http://media02.hongkiat.com/diy-smartphone-tablet-accessories/binder-clip.jpg?new" alt="">
+				<figcaption><abbr title="Do-It-Yourself">DIY</abbr> hands-free smart phone stand. <small><a href="http://www.hongkiat.com/blog/diy-smartphone-tablet-accessories/">hongkiat.com</a></small></figcaption>
+			</figure> 
+			<figure class="panel span-two">
+					<img style="height: 350px;" src="img/jacob-sm.jpg" alt="Jacob: A young blind professional using a screen reader to access the web.">
+					<figcaption>Jacob.</figcaption>	
+			  </figure>
+
+		   <figure class="panel span-two">
+			   <img style="height: 350px;" src="img/trevor-sm.jpg" alt="Trevor: A young highschool student with a learning disability using an ipad.">
+			   <figcaption>Trevor.</figcaption>
+		   </figure>
+
+			<figure class="panel span-two">
+				<img style="height: 350px;" src="img/steven-sm.jpg" alt="Steven: A deaf graphic designer using American Sign Language in a skype meeting.">
+				<figcaption>Steven. <small><a href="http://rosenfeldmedia.com/b">rosenfeldmedia.com</a></small></figcaption>
+			</figure>
+		</section>
+		
+		<section class="slide">
+		 	<h2>Rethinking Disability &amp; Accessibility</h2>
+			<blockquote>
+				<p>A mismatch between the user and the user interface.</p> 	
+				<p class="slide-note">user + barrier = disability</p>
+			 </blockquote>
+			
+			<blockquote>
+				<p>The ability of the system to accommodate the needs of the user.</p> 	
+			 </blockquote>
+			
+			<p class="speaker-note">When take responsibility of disability off the person and put it on the design, we suddenly realize how important accessibility is to the design process.</p>
+		 </section>
+
+		<section class="slide">
+		  <h2>Web Content Accessibility Guidelines 2.0</h2>
+				<h3>The <abbr>POUR</abbr> principles</h3>
+				<p class="speaker-note">It has 4 main principles are:</p> 
+				  <ol>
+		      	<li><h4>Perceivable</h4>
+							<p class="slide slide-note"> users must be able to perceive the information being presented <span class="speaker-note">(it can't be invisible to all of their senses). They need to be able to see it, hear it or feel it.</span></p></li>
+		        <li><h4>Operable</h4>
+							<p class="slide slide-note">users must be able to operate the interface  <span class="speaker-note">(the interface cannot require interaction that a user cannot perform). A user should be able navigate content or fill in a form with the keyboard alone. Operating a mouse cannot be the only option.</span></p></li>
+		        <li><h4>Understandable</h4> 
+							<p class="slide slide-note">users must be able to understand the information as well as the operation of the user interface <span class="speaker-note">(the content or operation cannot be beyond their understanding). Content should be at the reading level of the audience</span></p></li>
+		        <li><h4>Robust</h4> 
+							<p class="slide slide-note">users must be able to access the content as technologies advance <span class="speaker-note">(as technologies and user agents evolve, the content should remain accessible). Building to an accessible standard helps future proof your web content or web site.</span></p></li>
+		      </ol>
+		  	
+					<p><a href="http://www.w3.org/TR/WCAG20/"><abbr title="Web Content Accessibility Guidelines">WCAG 2.0</abbr></a> (<abbr title="World Wide Web Consortium">W3C</abbr> 2008).</p>     
+		</section>
+		
+		<section class="slide">
+			<h2>Sounds simple, right?</h2>
+				<p class="speaker-note">Well, not entirely. The <abbr>POUR</abbr> principles, as they are commonly referred to, are broken down into:</p> 				
+					<ul class="slide-note">
+						<li>12 Guidelines</li>
+						<li>65 Success criteria</li>
+						<li>3 Grading levels: A, AA, and AAA</li>
+				 </ul>
+		</section>
+		
+		<section class="slide">
+			<h2>What does all that mean?</h2>  
+		    <figure>
+		    	<img src="img/graphics/stairs-1-6-nonum-withwords-grey.jpg" alt="Web content types as potiential stairs. The 6 stairs/content categories are: text and solid structure; links and navigation; images and charts; colour and layout; tables, forms and interactives; audio, video and other formats." style="height: 1000px;">
+		     </figure>
+		</section>
+
+		<section class="slide">
+		  <h2>Build in a virtual ramp</h2>
+		    <figure>
+		      <img src="img/graphics/stairs-ramp-nonums.jpg" alt="Staircase is converted to a ramp by filling the gaps with a blue ramp (the virtual ramp)." style="height: 1000px;">
+		    </figure>
+		</section>
+		<section class="slide">
+		  <h2>Build in a virtual ramp</h2>
+		    <figure>
+		      <img src="img/graphics/stairs-1-6.jpg" alt="Ramp access techniques numbered 1-6 (the virtual ramp)." style="height: 1000px;">
+		    </figure>
+		</section>
+
+		<!-- Steps/Ramp Explanations start here. -->   	   			
+		<section class="slide">
+		  <h2>Code in meaning <small><a href="demos-private/sample-course/demo-1-structure-patterns.html">{demo}</a></small></h2>
+			<figure>
+	      <img src="img/graphics/stairs-01.jpg" alt="Step 1: Text and Solid Structire." style="height: 1000px;">
+	    </figure>
+		</section>
+
+		<section class="slide">
+		 	<h2>Create unique &amp; meaningful links <small><a href="http://www.newfoundlandlabrador.com/ThingsToDo/HikingWalking">{demo}</a></small></h2>
+			<figure>
+	      <img src="img/graphics/stairs-02.jpg" alt="Step 2: Links and Navigation." style="height: 1000px;">
+	    </figure>
+		 </section>
+
+		<section class="slide">
+		  <h2>Text-based alternatives</h2>
+		  <figure>
+	      <img src="img/graphics/stairs-03.jpg" alt="Step 3: Images and Charts." style="height: 1000px;">
+	    </figure> 
+		</section>
+		
+		<section class="slide">
+		  <h2>Composing <code>alt</code> text</h2> 	
+			  <figure class="panel-left">
+			    <img src="http://www.theispot.com/images/source/Tim_O_Brien__Bowie_for_Rolling_Stone.jpg" alt="" style="height: 1000px;">
+			<figcaption>Ziggy Stardust on the cover of Rolling Stone magazine. <small>Illustration by Tim O&apos;Brien, Rolling Stone, Issue 1149, February 2, 2012. &copy; Rolling Stone LLC 2012. All Rights Reserved.</small></figcaption>
+			</figure>
+			<div class="panel-right">
+			  <ol class="slide-note">
+				<li class="slide">Rolling Stone Magazine</li>
+				<li class="slide">Ziggy Stardust</li>
+				<li class="slide">The Rise and Fall of Ziggy Stardust</li>
+				<li class="slide">Cover of Rolling Stone Magazine featuring a photo of David Bowie dressed as Ziggy Stardust, a flamboyant glam persona he created during the early 1970s.</li>
+			  </ul>
+			</div>
+		</section>
+		<section class="slide">
+		  <h2>Keep tables &amp; forms simple <small>{demos: <a href="demos-private/lwso-1000/demo-4-tables-voting.html">1</a>, <a href="demos-private/lwso-1000/demo-4-tool-tips.html">2</a>}</small></h2>
+		
+				<figure>
+		      <img src="img/graphics/stairs-04.jpg" alt="Step 4: Tables, Forms and Interactives" style="height: 1000px;">
+		    </figure>
+		</section>
+
+		 <section class="slide">
+			  <h2>Power of Standards</h2>
+					<figure>
+			      <img src="img/graphics/stairs-05.jpg" alt="Step 5: Colour and Layout" style="height: 1000px;">
+			    </figure>
+			</section>
+			
+			<section class="slide">
+				  <h2>Audio, Video &amp; Other Formats</h2>
+						<figure>
+				      <img src="img/graphics/stairs-06.jpg" alt="Step 6: Audio, Video and Other formats" style="height: 1000px;">
+				    </figure>
+				</section>
+
+		<section class="slide">
+			<h2>All things &amp; therefore all people</h2>
+				<p class="speaker-note">Users employ a diverse range of hardware and software, <strong>assistive technologies</strong>, to navigate the digital world.</p>
+		    <figure class="panel span-two">
+					<img style="height: 350px;" src="img/at-refreshable-braille.jpg" alt="">
+					<figcaption>Refreshable braille device.</figcaption>	
+			  </figure>
+		   <figure class="panel span-two">
+			   <img style="height: 350px;" src="img/at-kursweil-close-up.jpg" alt="Highlighted text showing where the cursor is.">
+			   <figcaption>Kurzweil 3000 - literacy support software.</figcaption>
+		   </figure>
+
+			<figure class="panel span-two">
+				<img style="height: 350px;" src="http://media02.hongkiat.com/diy-smartphone-tablet-accessories/binder-clip.jpg?new" alt="">
+				<figcaption><abbr title="Do-It-Yourself">DIY</abbr> hands-free smart phone stand. <small><a href="http://www.hongkiat.com/blog/diy-smartphone-tablet-accessories/">hongkiat.com</a></small></figcaption>
+			</figure> 
+			<figure class="panel span-two">
+					<img style="height: 350px;" src="img/jacob-sm.jpg" alt="Jacob: A young blind professional using a screen reader to access the web.">
+					<figcaption>Jacob.</figcaption>	
+			  </figure>
+
+		   <figure class="panel span-two">
+			   <img style="height: 350px;" src="img/trevor-sm.jpg" alt="Trevor: A young highschool student with a learning disability using an ipad.">
+			   <figcaption>Trevor.</figcaption>
+		   </figure>
+
+			<figure class="panel span-two">
+				<img style="height: 350px;" src="img/steven-sm.jpg" alt="Steven: A deaf graphic designer using American Sign Language in a skype meeting.">
+				<figcaption>Steven. <small><a href="http://rosenfeldmedia.com/b">rosenfeldmedia.com</a></small></figcaption>
+			</figure>
+		</section>	
+
+		<section class="slide">
+		  <h2>Resources</h2>
+		    <ul> 
+				 <li>Horton, S. &amp; Quesenbery, W. (2014) <em>A Web For Everyone.</em> <a href="http://rosenfeldmedia.com/books/a-web-for-everyone/">http://rosenfeldmedia.com/books/a-web-for-everyone/</a></li>
+		    	<li>Clark, J. (2003) <em>Building accessible websites.</em> Indianapolis: New Riders.</li>
+		<li>Clark, J. (2005) <a href="http://alistapart.com/article/pdf_accessibility">Facts and Opinions About PDF Accessibility</a>. Retrieved from: <em><a href="alistapart.com/">A List Apart</a></em>.</li>
+		<li>Smith, T. (2014) <em>Making Web Content Accessibile in 10 Steps or Less</em> <a href="http://www.delts.mun.ca/oew.php">http://www.delts.mun.ca/oew.php</a></li>
+		    	<li>Accessible Icon Project: <a href="http://www.accessibleicon.org/">http://www.accessibleicon.org/</a></li>
+		    	<li><abbr>W3C</abbr>: <a href="http://www.w3.org/">http://www.w3.org/</a></li>
+		    	<li><abbr>WAI</abbr>: <a href="http://www.w3.org/WAI/">http://www.w3.org/WAI/</a></li>
+				<li><abbr>WCAG 2.0</abbr>: <a href="http://www.w3.org/WAI/WCAG20/glance/Overview.html">http://www.w3.org/WAI/WCAG20/glance/Overview.html</a></li>
+				<li>WCAG Samurai: <a href="http://www.wcagsamurai.org/">http://www.wcagsamurai.org/</a></li>
+				<li>WCAG 1.0: <a href="http://www.w3.org/TR/WAI-WEBCONTENT/">http://www.w3.org/TR/WAI-WEBCONTENT/</a></li>
+				<li><abbr>WebAIM</abbr>: <a href="http://webaim.org/">http://webaim.org/</a></li> 
+		    	<li>Wave Accessibility Evaluation Tool: <a href="http://wave.webaim.org">http://wave.webaim.org/</a></li>   	
+		    	<li>Wikipedia: <a href="http://wikipedia.org/">http://wikipedia.org/</a></li>
+				<li>Deck.js: <a href="http://imakewebthings.com/deck.js/">http://imakewebthings.com/deck.js/</a></li>
+		    </ul>
+				<h3>Special Thanks</h3>
+				  <ul>
+				  	<li>A big thanks to Andrea Quigley for help with the stair graphic.</li>
+				  </ul> 
+		</section> 
+
+
+    <!-- End slides. -->
+
+    <!-- Begin extension snippets. Add or remove as needed. -->
+
+    <!-- deck.navigation snippet -->
+    <div>
+      <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+      <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+    </div>
+
+    <!-- deck.status snippet -->
+    <p class="deck-status">
+      <span class="deck-status-current"></span>
+      /
+      <span class="deck-status-total"></span>
+    </p>
+
+    <!-- deck.goto snippet -->
+    <form action="." method="get" class="goto-form">
+      <label for="goto-slide">Go to slide:</label>
+      <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+      <datalist id="goto-datalist"></datalist>
+      <input type="submit" value="Go">
+    </form>
+
+    <!-- End extension snippets. -->
+  </div>
+
+<!-- Required JS files. -->
+<script src="jquery.min.js"></script>
+<script src="core/deck.core.js"></script>
+
+<!-- Extension JS files. Add or remove as needed. -->
+<script src="extensions/menu/deck.menu.js"></script>
+<script src="extensions/goto/deck.goto.js"></script>
+<script src="extensions/status/deck.status.js"></script>
+<script src="extensions/navigation/deck.navigation.js"></script>
+<script src="extensions/scale/deck.scale.js"></script>
+
+<!-- Initialize the deck. You can put this in an external file if desired. -->
+<script>
+  $(function() {
+    $.deck('.slide');
+  });
+</script>
+</body>
+</html>

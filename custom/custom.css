@@ -41,23 +41,19 @@ small {
 	font-size: 200%;
 	list-style-type: none;
 }
-
 .steps-all {
 	height: 900px;
 	background: transparent url(../img/graphics/stairs-background-faded.png) no-repeat center center;  
 }
 .step {
 	background: transparent no-repeat bottom right;
-	min-height: 1000px;
+	min-height: 1280px;
 	margin: 0 auto;
 }
 .step ol {
 	width: 70%;
 } 
 /*Stair Images (individual stairs) */
-#step0 {
-  background-image: url(../img/graphics/individual-stairs-0.png);
-}
 #step1 {
   background-image: url(../img/graphics/individual-stairs-1.png);
 }

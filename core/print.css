@@ -18,6 +18,7 @@ pre {
 .deck-container > .slide {
   page-break-after: always; }
 
-.speaker-note {
+.speaker-note, 
+.demo-note {
   font-size: 18pt;
   text-indent: none; }

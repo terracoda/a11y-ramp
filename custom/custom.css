@@ -13,12 +13,12 @@ small {
 .demo {
 	font-size: 200%;
 }
-.speaker-note, .wcag-note {
+.speaker-note, .wcag-note, .demo-note {
    font-size: 1px;
 	display: block;
 	text-indent: -10000em;
 }
-.speaker-note, .wcag-note {
+.speaker-note, .wcag-note, .demo-note {
 	list-style-type: none;
 }
 .demo, .wcag-note {
@@ -47,7 +47,7 @@ small {
 }
 .step {
 	background: transparent no-repeat bottom right;
-	min-height: 1280px;
+	min-height: 1000px;
 	margin: 0 auto;
 }
 .step ol {

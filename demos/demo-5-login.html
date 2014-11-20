@@ -7,11 +7,20 @@
     <body>  
 	  <h1>Form Samples</h1>
 	  <h2>Simple login form</h2>
-	  <form style="max-width: 650px; margin: 0 auto;">
+	  <form style="max-width: 650px; margin: 1em 3em;">
 		  <fieldset>
 			  <legend>Login Credentials</legend>
-			  <p><label for="uName">Username</label>
-			  	<input required aria-required="true" id="uName" name="uName" type="text"></p>
+			  	<p><input type="text" placeholder="User Name"></p>
+		  		<p><input id="pWord" type="text" placeholder="Password"></p>
+			  </fieldset>
+				  <input id="signIn" value="Login" name="signIn" type="submit">
+	  </form>
+	
+		<form style="max-width: 650px; margin: 1em 3em;">
+		  <fieldset>
+			  <legend>Login Credentials</legend>
+			  <p><label  required id="uName" name="uName">Username</label>
+			  	<input required aria-required="true" id="uName" name="uName" type="text" </p>
 		  	  <p><label for="pWord">Password</label>
 		  		 <input required aria-required="true" id="pWord" name="pWord" type="text"></p>
 			  </fieldset>

@@ -1,4 +1,7 @@
 /* Custom  CSS */
+.slide a {
+   border-bottom: 1px dotted;
+}
 figure img {
 	margin-bottom: 0.25em;   
 }
@@ -47,7 +50,7 @@ small {
 }
 .step {
 	background: transparent no-repeat bottom right;
-	min-height: 1000px;
+	height: 1250px;
 	margin: 0 auto;
 }
 .step ol {

@@ -131,16 +131,16 @@
 				<p class="slide-note">user + barrier = disability</p>
 			 </blockquote>
  
-			<h3>Accessibility</h3>
+		 <div class="slide"><h3>Accessibility</h3>
 			<blockquote>
 				<p>The ability of the system to accommodate the needs of the user.</p> 	
-			 </blockquote>
+			 </blockquote></div>
 
-			<p class="speaker-note">When we take the responsibility or label of disability off the person and put it on the design, we suddenly realize that accessibility is an essential part of the design process and design thinking.</p>
+			<p class="speaker-note">When we take the responsibility or label of disability off the person and put it on the design, we suddenly see accessibility as an essential part of the design process and design thinking.</p>
 		 </section>
 		
 		<section class="slide">
-			<h2>Designing Websites</h2> 
+			<h2>Designing Websites (course sites)</h2> 
 			<blockquote><p>[...] to accommodate the needs of the user <br> by ensuring the websites present no barriers.</p></blockquote>
 
 			<h3>W3C's Open Web Standards</h3>
@@ -238,17 +238,18 @@
 			</li>
 		</ul>
 		<p class="slide-note">Demo: Colleen Connor @ <a href="http://www.youtube.com/watch?v=2PMuBQ7LyOw">Blind Inspiration Cast</a> 04:56 - 6:53 </p>
-		<p class="demo-note">Using this sample, I will demonstrate the importance of semantic structure and element navigation (chromevox). While viewing the code, I will point to the language settings, the doctype, the charset and the page title (view-page-source). Then I will compare my use of chromevox with a real screen reader user.</p>
+	 
 			</div>
 		</section>
 
 		<section class="slide">
 			<div class="step" id="step2"> 
 		 	<h2>2. Navigation, Links &amp; Landmarks</h2>
-			<p class="speaker-note"> Navigation, links &amp; landmarks, like stepping stones, take you places and help you find your way. They not only need to look distinctive, they need to sound distinctive. The importance of accessible navigational elements cannot be under estimated they are foundation of the internet.</p>
+			<p class="speaker-note"> Navigation, links &amp; landmarks, like stepping stones, take you places and help you find your way. They not only need to look distinctive, they need to sound distinctive. The importance of accessible navigational elements cannot be under estimated they are the foundation of the internet.</p>
 			<ul class="slide-note">
 				<li>Create <a href="http://www.newfoundlandlabrador.com/"><strong>unique &amp; meaningful</strong> links</a></li>
 				<li>Leave <strong>control</strong> with the user <span class="speaker-note">- no forced new tab</span></li>
+				<li>Do not repeat links over and over and over again.</li>
 				<li>Use <a href="http://www.paciellogroup.com/blog/2013/02/using-wai-aria-landmarks-2013/"><strong><abbr title="Accessible Rich Internet Applications">ARIA</abbr> roles</a></strong> to define page landmarks <span class="speaker-note">- formerly skip navigation links</span></li>
 				<li>Design <strong>consistent navigation</strong> <span class="speaker-note">- important for all users.</span></li>
 			</ul>
@@ -274,8 +275,8 @@
 		 </section>
 		
 		<section class="slide">
-		  <h2>Composing <code>alt</code> text</h2>
-		  <p class="speaker-note">Composing <code>alt</code> text is not as easy as you think, and is not always necessary. A blank <code>alt</code> attribute is appropriate in certain circumstances. Do not leave the writing of alternative text to your web developers.</p>	
+		  <h2>Intricacies of <code>alt</code> text</h2>
+		  <p class="speaker-note">Composing <code>alt</code> text is not as easy as you think, and is not always necessary. A blank <code>alt</code> attribute is appropriate in certain circumstances. Leaving the writing of alternative text to your web developers is not a bullet proof plan.</p>	
 			  <figure class="panel-left">
 			    <img src="http://www.theispot.com/images/source/Tim_O_Brien__Bowie_for_Rolling_Stone.jpg" alt="" style="height: 800px;">
 			<figcaption>Ziggy Stardust on the cover of Rolling Stone magazine. <small>Illustration by Tim O&apos;Brien, Rolling Stone, Issue 1149, February 2, 2012. &copy; Rolling Stone LLC 2012. All Rights Reserved.</small></figcaption>
@@ -293,7 +294,7 @@
 		</section>
 		<section class="slide">
 			 <div class="step" id="step4"> 
-		  <h2>4. Table, Forms &amp; Interactives</h2>
+		  <h2>4. Tables, Forms &amp; Interactives</h2>
 		  <p class="speaker-note">As we make our way up the steps, elements become more complex, and require more skill and resources to make them accessible. Just by their function and purpose, tables and forms are complex structures. To reduce complexity, these elements should be kept as simple as possible.</p>
 		  <h3>Tables</h3>
 			<ul class="slide-note">
@@ -306,8 +307,8 @@
 		</section>
 		<section class="slide">
 			 <div class="step" id="step4"> 
-		  <h2>4. Table, Forms &amp; Interactives</h2>
-		  <h3>Interactives</h3>
+		  <h2>4. Tables, Forms &amp; Interactives</h2>
+		  <h3>Forms</h3>
 		  	<p class="speaker-note">Forms are where interaction takes place. Many things can go wrong. Our goal is successful completion. Determine data requirements, form flow &amp; error handling first, and look at building:</p>
 			<ul class="slide-note">
 				<li>Plan for <strong>keyboard</strong> accessibility<span class="speaker-note"> - needs special attention</span></li>
@@ -321,7 +322,7 @@
 		</section>
 		<section class="slide">
 			 <div class="step" id="step4"> 
-		  <h2>4. Table, Forms &amp; Interactives</h2>
+		  <h2>4. Tables, Forms &amp; Interactives</h2>
 		  <h3>Interactives</h3>
 		  	<p class="speaker-note">Gamification of learning activities is very popular in online education. Interactive layouts designed for online engagement are also popular. As we introduce these dynamic feature we have to be careful to not introduce barriers.</p>
 			<ul class="slide-note">
@@ -352,7 +353,7 @@
 		<section class="slide">
 				<div class="step" id="step6">
 				  <h2>Audio, Video &amp; Other Formats</h2>
-				  <h3>Audi &amp; Video</h3>
+				  <h3>Audio &amp; Video</h3>
 				  <p class="speaker-note">Like images, audio and video (multimedia content) are not text, thus text-based alternatives must be provided.</p>
 				  <ul class="slide-note">
 					<li>Ensure access to controls<span class="speaker-note"> - Access to controls is often the first barrier to multimedia.</span></li>

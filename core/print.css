@@ -1,18 +1,18 @@
 body {
-  font-size: 18pt; }
+  font-size: 14pt; }
 
 h1 {
-  font-size: 48pt; }
+  font-size: 24pt; }
 
 h2 {
-  font-size: 36pt; }
+  font-size: 20pt; }
 
 h3 {
-  font-size: 28pt; }
+  font-size: 16pt; }
 
 pre {
-  border: 1px solid #000;
-  padding: 10px;
+  border: 1pt solid #000;
+  padding: 10pt;
   white-space: pre-wrap; }
 
 .deck-container > .slide {
@@ -20,5 +20,17 @@ pre {
 
 .speaker-note, 
 .demo-note {
-  font-size: 18pt;
+  font-size: 14pt;
   text-indent: none; }
+
+figure img,
+figure img.persona {
+	margin: 10pt;
+	height: 2in;
+}
+figure img.stairs-ramp {
+  height: 4in;
+}
+figure img.img-large {
+  height: 2in;
+}
